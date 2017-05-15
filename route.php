@@ -1,6 +1,6 @@
 <?php
 //echo $_SERVER["REQUEST_URI"];
-include("template.php");
+include("Scripts/template.php");
 if ($_SERVER["REQUEST_URI"] == "/"){
 	include("Scripts/index.php");
 } else if ($_SERVER["REQUEST_URI"] == "/Projects"){
